@@ -1,18 +1,7 @@
 <?php
 session_start();
 
-$json='[
-    {
-        "qty": 200.0,
-        "name": "Github",
-        "assetref": "387-266-51409"
-    },
-    {
-        "qty": 5.0,
-        "name": "Hackerrank",
-        "assetref": "395-267-61588"
-    }
-]';
+$json='[]';
 if (!isset($_SESSION['name']))
 	$_SESSION['name'] = "Guest";
 
